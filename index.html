@@ -11,8 +11,16 @@
         <div class="container">
             <h1 class="logo">E-Learn</h1>
             <nav class="nav">
-                <button id="loginBtn" class="btn btn-outline">Login</button>
-                <button id="signupBtn" class="btn btn-primary">Sign Up</button>
+                <div class="user-status" id="userStatus" style="display: none;">
+                    <div class="user-avatar" id="userAvatar"></div>
+                    <span class="user-name" id="userName"></span>
+                    <button class="btn btn-outline" onclick="showAnalytics()">Analytics</button>
+                    <button class="logout-btn" onclick="logout()">Logout</button>
+                </div>
+                <div class="auth-buttons" id="authButtons">
+                    <button id="loginBtn" class="btn btn-outline">Login</button>
+                    <button id="signupBtn" class="btn btn-primary">Sign Up</button>
+                </div>
             </nav>
         </div>
     </header>
@@ -32,6 +40,17 @@
             </section>
         </div>
     </main>
+
+    <!-- Analytics Modal -->
+    <div id="analyticsModal" class="modal">
+        <div class="modal-content analytics-content">
+            <span class="close">&times;</span>
+            <h3>Learning Analytics</h3>
+            <div id="analyticsContent">
+                <!-- Analytics will be loaded here -->
+            </div>
+        </div>
+    </div>
 
     <!-- Login Modal -->
     <div id="loginModal" class="modal">

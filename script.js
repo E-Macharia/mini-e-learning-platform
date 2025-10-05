@@ -1,4 +1,10 @@
-// Sample course data
+// Enhanced E-Learning Platform with Backend Integration
+const API_BASE = 'http://localhost:3000/api';
+let currentUser = null;
+let currentCourse = null;
+let currentLesson = null;
+
+// Sample course data (fallback if backend is not available)
 const courses = [
     {
         id: 1,

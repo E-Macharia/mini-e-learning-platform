@@ -21,8 +21,51 @@
             <div id="courseDetail" class="course-detail">
                 <!-- Course details will be dynamically loaded here -->
             </div>
+            
+            <!-- Video Player Section -->
+            <div id="videoSection" class="video-section" style="display: none;">
+                <div class="video-container">
+                    <div class="video-player">
+                        <iframe id="videoPlayer" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3 id="videoTitle"></h3>
+                        <p id="videoDescription"></p>
+                        <div class="video-actions">
+                            <button id="markCompleteBtn" class="btn btn-success">Mark as Complete</button>
+                            <button id="nextLessonBtn" class="btn btn-primary">Next Lesson</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Discussion Forum Section -->
+            <div id="forumSection" class="forum-section" style="display: none;">
+                <div class="forum-header">
+                    <h3>Course Discussion</h3>
+                    <button id="newPostBtn" class="btn btn-primary">New Post</button>
+                </div>
+                <div id="forumContent">
+                    <!-- Forum posts will be loaded here -->
+                </div>
+            </div>
         </div>
     </main>
+
+    <!-- New Post Modal -->
+    <div id="newPostModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Create New Post</h3>
+            <form id="newPostForm">
+                <div class="form-group">
+                    <label for="postContent">Your Message:</label>
+                    <textarea id="postContent" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Post</button>
+            </form>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
