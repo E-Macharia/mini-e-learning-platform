@@ -1,5 +1,5 @@
 // Enhanced E-Learning Platform with Backend Integration
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = 'https://mini-e-learning-platform.onrender.com/api';
 let currentUser = null;
 let currentCourse = null;
 let currentLesson = null;
