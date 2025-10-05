@@ -309,3 +309,4 @@ echo $JWT_SECRET
 
 Your e-learning platform is now live and production-ready! 🚀
 
+

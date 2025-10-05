@@ -140,3 +140,4 @@ netstat -an | grep 3000
 - Verify all dependencies are installed
 - Ensure Node.js version is compatible
 
+
