@@ -1,0 +1,225 @@
+{
+  "users": [],
+  "courses": [
+    {
+      "id": "1",
+      "title": "Web Development Fundamentals",
+      "description": "Learn the basics of HTML, CSS, and JavaScript to build modern websites. Perfect for beginners who want to start their journey in web development.",
+      "duration": "8 weeks",
+      "level": "Beginner",
+      "lessons": 24,
+      "icon": "🌐",
+      "instructor": "Sarah Johnson",
+      "price": 0,
+      "rating": 4.8,
+      "students": 1250,
+      "videoLessons": [
+        {
+          "id": 1,
+          "title": "Introduction to HTML",
+          "duration": "45 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Learn the fundamentals of HTML structure and elements",
+          "completed": false
+        },
+        {
+          "id": 2,
+          "title": "CSS Styling Basics",
+          "duration": "60 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Master CSS selectors, properties, and styling techniques",
+          "completed": false
+        },
+        {
+          "id": 3,
+          "title": "JavaScript Fundamentals",
+          "duration": "90 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Understand JavaScript syntax, variables, and functions",
+          "completed": false
+        },
+        {
+          "id": 4,
+          "title": "Responsive Design",
+          "duration": "75 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Create mobile-friendly websites with responsive design",
+          "completed": false
+        },
+        {
+          "id": 5,
+          "title": "DOM Manipulation",
+          "duration": "80 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Learn to interact with the Document Object Model",
+          "completed": false
+        },
+        {
+          "id": 6,
+          "title": "Project: Personal Portfolio",
+          "duration": "120 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Build a complete portfolio website from scratch",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Python Programming",
+      "description": "Master Python programming from basics to advanced concepts. Learn data structures, algorithms, and build real-world projects.",
+      "duration": "12 weeks",
+      "level": "Intermediate",
+      "lessons": 36,
+      "icon": "🐍",
+      "instructor": "Michael Chen",
+      "price": 99,
+      "rating": 4.9,
+      "students": 2100,
+      "videoLessons": [
+        {
+          "id": 1,
+          "title": "Python Basics",
+          "duration": "50 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Introduction to Python syntax and basic concepts",
+          "completed": false
+        },
+        {
+          "id": 2,
+          "title": "Data Types and Variables",
+          "duration": "60 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Understanding Python data types and variable assignment",
+          "completed": false
+        },
+        {
+          "id": 3,
+          "title": "Control Structures",
+          "duration": "70 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Learn about loops, conditionals, and control flow",
+          "completed": false
+        },
+        {
+          "id": 4,
+          "title": "Functions and Modules",
+          "duration": "85 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Create reusable code with functions and modules",
+          "completed": false
+        },
+        {
+          "id": 5,
+          "title": "Object-Oriented Programming",
+          "duration": "100 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Master classes, objects, and inheritance in Python",
+          "completed": false
+        },
+        {
+          "id": 6,
+          "title": "File Handling",
+          "duration": "65 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Read and write files in Python applications",
+          "completed": false
+        },
+        {
+          "id": 7,
+          "title": "Error Handling",
+          "duration": "55 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Handle exceptions and errors gracefully",
+          "completed": false
+        },
+        {
+          "id": 8,
+          "title": "Project: To-Do App",
+          "duration": "150 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Build a complete to-do application with Python",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Data Science with R",
+      "description": "Explore data analysis, visualization, and statistical modeling using R. Perfect for aspiring data scientists.",
+      "duration": "10 weeks",
+      "level": "Advanced",
+      "lessons": 30,
+      "icon": "📊",
+      "instructor": "Dr. Emily Rodriguez",
+      "price": 149,
+      "rating": 4.7,
+      "students": 890,
+      "videoLessons": [
+        {
+          "id": 1,
+          "title": "R Basics and Environment",
+          "duration": "55 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Introduction to R programming environment and syntax",
+          "completed": false
+        },
+        {
+          "id": 2,
+          "title": "Data Import and Export",
+          "duration": "65 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Learn to import and export data in various formats",
+          "completed": false
+        },
+        {
+          "id": 3,
+          "title": "Data Manipulation with dplyr",
+          "duration": "90 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Master data manipulation using the dplyr package",
+          "completed": false
+        },
+        {
+          "id": 4,
+          "title": "Data Visualization with ggplot2",
+          "duration": "95 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Create beautiful visualizations with ggplot2",
+          "completed": false
+        },
+        {
+          "id": 5,
+          "title": "Statistical Analysis",
+          "duration": "110 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Perform statistical tests and analysis in R",
+          "completed": false
+        },
+        {
+          "id": 6,
+          "title": "Machine Learning Basics",
+          "duration": "120 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Introduction to machine learning with R",
+          "completed": false
+        },
+        {
+          "id": 7,
+          "title": "Project: Sales Analysis",
+          "duration": "180 min",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Complete data science project analyzing sales data",
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "enrollments": [],
+  "progress": [],
+  "certificates": [],
+  "forums": [],
+  "posts": [],
+  "analytics": []
+}
+
